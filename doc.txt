@@ -1,0 +1,35 @@
+Quy tắc đặt tên hàm
++ Tên hàm phải bắt đầu là một động từ
++ Viết theo kiểu cammel case
++ Không chứa các ký tự đặc biệt như: %, #. @, .... trừ $ và _
++ Không bắt đầu là 1 chữ số 
++ Đối với những hàm nào mà thực hiện lấy ra(dữ liệu,..) thì bắt đầu bằng từ "get"
+  Ví dụ: getData, getProduct, getUser,;;;
++ Đối với những hàm nào thực hiện chỉnh sửa thì bắt đầu bằng từ set hoặc update
+  Ví dụ: setUsername, updateInfo,...
++ Viết bằng tiếng anh, không dấu và phải có ý nghĩa 
+
+
+Tham số trong hàm:
++ Tham số là những giá trị được truyền vào tại thời điểm hàm được khai báo
++ Tham số trong hàm không giới hạn số lượng và kiểu dữ liệu
+
+Đối số:
++ Là những giá trị được truyền vào tại thời điểm hàm được gọi
++ Thông thường, số lượng tham só và đối số của hàm phải bằng nhau
+
+Từ khoá return trong hàm (là một phần rất quan trọng, quyết định giá trị mà hàm trả về)
++ Từ khoá return được sử dụng để trả về kết quả cho hàm
++ Nếu như hàm không có từ khoá return thì nó sẽ trả về giá trị là undefined
+
+Gọi hàm
++ Hàm chỉ được thực thi khi nó được gọi 
++ Khi gọi thì chúng ta sử dụng toán tử CALL. Ký hiệu là dấu: ()
+
+Mục đích của hàm:
++ Giúp bảo trì code tốt hơn
++ Tái sử dụng lại code
+
+Split: chuyển đổi 1 chuỗi thành 1 mảng
+Reverse: Đảo ngược
+Join: chuyển đổi 1 mảng thành 1 chuỗi
